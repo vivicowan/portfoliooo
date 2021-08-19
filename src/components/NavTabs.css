@@ -22,11 +22,12 @@ nav a {
 }
 
 nav a:hover {
-  background-image: url('https://scottyzen.sirv.com/Images/v/button.png');
+  background-image: url("../images/SL_022420_28400_02.jpg");
   background-size: 100% 100%;
-  color: #27262c;
+  border-radius: 35%;
+  color: #ffffff;
   animation: spring 300ms ease-out;
-  text-shadow: 0 -1px 0 #000000;
+  text-shadow: 0 -1px 0 #fc72b7;
 	font-weight: bold;
 }
 nav a:active {
