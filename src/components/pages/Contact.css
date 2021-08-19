@@ -1,7 +1,11 @@
+:root {
+	font-family: 'Chakra Petch', sans-serif;
+	font-family: 'IBM Plex Mono', monospace;
+}
 
   /* form animation starts */
   .form {
-	background: #fff;
+	background: rgba(255, 255, 255, 0.747);
 	box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
 	border-radius: 5px;
 	max-width: 480px;
@@ -22,7 +26,7 @@
   
   .title{
 	display: block;
-	font-family: sans-serif;
+	font-family: 'IBM Plex Mono', monospace;
 	margin: 10px auto 5px;
 	width: 300px;
   }
@@ -41,6 +45,7 @@
   .name {
 	background-color: #ff46c1;
 	color: white;
+	font-family: 'IBM Plex Mono', monospace;
   }
   .name:hover {
 	border-bottom: 5px solid #e02e96;
@@ -51,7 +56,9 @@
   
   .email {
 	background-color: #8a32d3;
+	color: white;
 	height: 2em;
+	font-family: 'IBM Plex Mono', monospace;
   }
   
   .email:hover {
@@ -63,8 +70,10 @@
   
   .message {
 	background-color: #4baeff;
+	color: white;
 	overflow: hidden;
 	height: 10rem;
+	font-family: 'IBM Plex Mono', monospace;
   }
   
   .message:hover {
@@ -89,6 +98,7 @@
 	color: white;
 	background-color: #07d467;
 	font-size: 20px;
+	font-family: 'IBM Plex Mono', monospace;
   }
   
   .submit:hover {
